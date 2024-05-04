@@ -11,9 +11,25 @@ body{
 }
 
 .yuki{
-    width: 25%
+    width: 25%;
 }
 
 .lucky{
-    width: 25%
+    width: 25%;
+}
+
+.titulos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    border: 3px;
+}
+
+.paragrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border: 1px;
+}
+
+.imagensmcs{
+    width: 40%
 }
