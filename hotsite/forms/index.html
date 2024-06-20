@@ -1,26 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+<head>                                                                                                                                   
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/hotsite/forms/css/style.css">
     <title>Cadastre-se aqui!</title>
 </head>
-<body>
+
+<body class="body-style">
     <div class="container">
-        <div class="form-image">
-            <img src="/hotsite/forms/img/undraw_undraw_undraw_undraw_sign_up_ln1s_-1-_s4bc_-1-_ee41_-1-_kf4d.svg">
+            <div class="form-image">
+                    <img src="/hotsite/forms/img/undraw_undraw_undraw_undraw_sign_up_ln1s_-1-_s4bc_-1-_ee41_-1-_kf4d.svg">
+            </div>
+     <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                         <h1>cadastre-se</h1>
+                    </div>
+                     <div class="login-buttom">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input box">
+                        <label for="firstname">Primeiro nome</label>
+                        <input id="firtname" type="text" name="firstname" placeholder="Digite o seu primeiro nome">
+                    </div>
+
+                    <div class="input box">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite o seu sobrenome">
+                    </div>
+
+                    <div class="input box">
+                        <label for="number">Telefone</label>
+                        <input id="number" type="tel" name="fone" placeholder="(xx) xxxx-xxxx)">
+                    </div>
+
+                    <div class="input box">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" placeholder="Digite um endereço de e-mail">
+                    </div>
+
+                    <div class="input box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Defina uma senha">
+                    </div>
+
+                    <div class="input box">
+                        <label for="Confirmpassword">Confirme sua senha</label>
+                        <input id="Confirmpassword" type="password" name="password" placeholder="Defina uma senha">
+                    </div>
+                </div>
+
+                <div class="gender-inputs">
+                    <div class="gender-inputs">
+                        <h6>Gênero</h6>
+                    </div>
+
+                    <div class="gender-group"> 
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">Feminino</label>
+                    </div>
+
+                    <div class="gender-group"> 
+                        <input type="radio" id="male" name="gender">
+                        <label for="male">Masculino</label>
+                    </div>
+
+                    <div class="gender-group"> 
+                        <input type="radio" id="none" name="gender">
+                        <label for="none">Não desejo identificar</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="continue-bottom">
+                <button><a href="#">Continuar</button>
+            </div>
+            </form>
         </div>
-    <div class="form">
-    <form action="#">
-        <div class="form-header">
-            <div class="title">
-                <h1>cadastre-se</h1>
-            </div>
-            <div class="login-buttom">
-                <button><a href="#">Entrar</a></button>
-            </div>
     </div>
 </body>
 </html>
