@@ -13,53 +13,59 @@
             <div class="form-image">
                     <img src="/hotsite/forms/img/undraw_undraw_undraw_undraw_sign_up_ln1s_-1-_s4bc_-1-_ee41_-1-_kf4d.svg">
             </div>
-     <div class="form">
+        <div class="form">
             <form action="#">
                 <div class="form-header">
                     <div class="title">
-                         <h1>cadastre-se</h1>
-                    </div>
-                     <div class="login-buttom">
-                        <button><a href="#">Entrar</a></button>
+                        <h1>cadastre-se</h1> 
+                    </div> 
+                    <div class="botaologin"><br><br><br>
+                        <button><a href="#">Entrar</a>
+                        </button>
                     </div>
                 </div>
+
                 <div class="input-group">
-                    <div class="input box">
-                        <label for="firstname">Primeiro nome</label>
-                        <input id="firtname" type="text" name="firstname" placeholder="Digite o seu primeiro nome">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro nome</label><br>
+                        <input class="square" id="firtname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
                     </div>
 
-                    <div class="input box">
+                    <div class="input-box">
                         <label for="lastname">Sobrenome</label>
-                        <input id="lastname" type="text" name="lastname" placeholder="Digite o seu sobrenome">
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
                     </div>
 
-                    <div class="input box">
+                    <div class="input-box">
                         <label for="number">Telefone</label>
+                        <br>
                         <input id="number" type="tel" name="fone" placeholder="(xx) xxxx-xxxx)">
                     </div>
 
-                    <div class="input box">
+                    <div class="input-box">
                         <label for="email">Email</label>
-                        <input id="email" type="email" name="email" placeholder="Digite um endereço de e-mail">
+                        <br>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail">
                     </div>
 
-                    <div class="input box">
+                    <div class="input-box">
                         <label for="password">Senha</label>
-                        <input id="password" type="password" name="password" placeholder="Defina uma senha">
+                        <br>
+                        <input id="password" type="password" name="password" placeholder="Defina uma senha" required>
                     </div>
 
-                    <div class="input box">
+                    <div class="input-box">
                         <label for="Confirmpassword">Confirme sua senha</label>
-                        <input id="Confirmpassword" type="password" name="password" placeholder="Defina uma senha">
+                        <br>
+                        <input id="Confirmpassword" type="password" name="password" placeholder="Defina uma senha" required>
                     </div>
                 </div>
-
+                <br>
                 <div class="gender-inputs">
                     <div class="gender-inputs">
-                        <h6>Gênero</h6>
+                        <h3>Gênero</h3>
                     </div>
-
+                    
                     <div class="gender-group"> 
                         <input type="radio" id="female" name="gender">
                         <label for="female">Feminino</label>
@@ -72,14 +78,16 @@
 
                     <div class="gender-group"> 
                         <input type="radio" id="none" name="gender">
-                        <label for="none">Não desejo identificar</label>
+                        <label  for="none">Não desejo identificar</label>
+                    </div>
+
+                    <div class="continue-bottom">
+                        <button><a href="#">Continuar</button>
                     </div>
                 </div>
             </div>
 
-            <div class="continue-bottom">
-                <button><a href="#">Continuar</button>
-            </div>
+            
             </form>
         </div>
     </div>
